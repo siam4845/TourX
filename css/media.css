@@ -1,0 +1,170 @@
+/* ======================Extra Extra Large Device=========================== */
+@media(min-width:1400px){
+
+}
+/* ======================Extra Large Device================================= */
+@media(min-width:1200px) and (max-width:1399.98px){
+
+}
+/* ======================Large Device================================= */
+@media(min-width:992px) and (max-width:1199.98px){
+
+}
+/* ======================Medium Device================================= */
+@media(min-width:768px) and (max-width:991.98px){
+
+}
+/* ======================Small Device================================= */
+@media(min-width:576px) and (max-width:767.98px){
+
+}
+/* ======================Extra Small Device================================= */
+@media(max-width:575.98px){
+/* ==========Header Part Start=========== */
+#header {
+	padding: 3px 0;
+}
+.header-contact{
+    display: none;
+}
+.header-social {
+	justify-content: left;
+}
+.header-social ul li a {
+	margin: 0 7px;
+}
+.header-language{
+    margin-right: 0 auto;
+    padding-right: 7px;
+}
+.header-language select{
+    width: 50px;
+}
+/* ==========Navbar Part Start=========== */
+
+/* ==========Banner Part Start=========== */
+.banner-content {
+	padding-left: 0px;
+	padding-top: 70px;
+}
+.banner-content h2 {
+	max-width: 610px;
+	font-size: 43px;
+	line-height: 50px;
+}
+.banner-slider-item {
+	min-height: 107vh;
+}
+.banner-content h5 {
+	font-size: 25px;
+	line-height: 40px;
+	margin: 25px 0 25px 0;
+}
+#banner .banner-prev {
+    display: none;
+}
+#banner .banner-next {
+    display: none;
+}
+/* ==========Find Form Part Start=========== */
+.findform-gap{
+    margin-bottom: 5px;
+}
+#find-from .findfrom-wrapper {
+	padding: 25px 25px;
+}
+#find-from {
+	margin-top: -133px;
+}
+/* ==========Package Part Start=========== */
+.section-head {
+	padding-top: 40px;
+	padding-bottom: 0px;
+}
+.section-head h5 {
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+#package .section-head h2 {
+	padding: 0 0px;
+}
+.section-head h2 {
+	font-size: 23px;
+	line-height: 33px;
+}
+.package-item {
+	margin: 10px 0;
+}
+.package-info h5 {
+	font-size: 13px;
+	line-height: 15px;
+}
+.package-info h5 span {
+	font-size: 18px;
+}
+.package-details h3 {
+	padding: 10px 0;
+    font-size: 20px;
+}
+.package-details h3 i {
+	font-size: 16px;
+}
+.package-item:hover .package-img img{
+    transform: scale(1.05);
+}
+/* ==========Destination Part Start=========== */
+#destination .section-head h2{
+    padding-bottom: 8px;
+}
+.desti-slider-warp{
+    margin-bottom: 12px;
+}
+.desti-item{
+    margin: 0 6px;
+}
+/* ==========Achievment Part Start=========== */
+#achievment{
+    padding-bottom: 30px;
+}
+#achievment .section-head {
+	padding-top: 50px;
+}
+#achievment .section-head h2 {
+	padding: 0 10px;
+    padding-bottom: 10px;
+}
+.achievment-icon i {
+	font-size: 70px;
+}
+.achievment-item {
+	padding: 15px;
+	margin-bottom: 15px;
+}
+/* ==========Review Part Start=========== */
+#review .section-head h2 {
+	padding: 0 0px;
+}
+.review-card {
+	margin: 20px 0px;
+    padding: 25px 20px;
+}
+.slick-dots {
+	bottom: -20px;
+}
+.slick-dots li {
+	width: 10px;
+	height: 10px;
+	margin: 0 9.5px;
+    border-radius: 50%;
+}
+.slick-dots li button {
+	top: 0px;
+	left: 0;
+	width: 10px;
+	height: 10px;
+	line-height: 10px;
+	border-radius: 50%;
+}
+/* ==========Header Part Start=========== */
+/* ==========Header Part Start=========== */
+}
