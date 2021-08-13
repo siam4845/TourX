@@ -1,10 +1,10 @@
 @font-face {
     font-family: "flaticon";
-    src: url("./flaticon.ttf?bfc4d786bc8935b50a01e5a8f785defb") format("truetype"),
-url("./flaticon.woff?bfc4d786bc8935b50a01e5a8f785defb") format("woff"),
-url("./flaticon.woff2?bfc4d786bc8935b50a01e5a8f785defb") format("woff2"),
-url("./flaticon.eot?bfc4d786bc8935b50a01e5a8f785defb#iefix") format("embedded-opentype"),
-url("./flaticon.svg?bfc4d786bc8935b50a01e5a8f785defb#flaticon") format("svg");
+    src: url("./flaticon.ttf?6d99c15bdc2c557400ded22428b3a90a") format("truetype"),
+url("./flaticon.woff?6d99c15bdc2c557400ded22428b3a90a") format("woff"),
+url("./flaticon.woff2?6d99c15bdc2c557400ded22428b3a90a") format("woff2"),
+url("./flaticon.eot?6d99c15bdc2c557400ded22428b3a90a#iefix") format("embedded-opentype"),
+url("./flaticon.svg?6d99c15bdc2c557400ded22428b3a90a#flaticon") format("svg");
 }
 
 i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
@@ -47,4 +47,55 @@ i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
 }
 .flaticon-magnifier:before {
     content: "\f10a";
+}
+.flaticon-customer-service:before {
+    content: "\f10b";
+}
+.flaticon-reaction:before {
+    content: "\f10c";
+}
+.flaticon-clock:before {
+    content: "\f10d";
+}
+.flaticon-send:before {
+    content: "\f10e";
+}
+.flaticon-star-1:before {
+    content: "\f10f";
+}
+.flaticon-clock-1:before {
+    content: "\f110";
+}
+.flaticon-human-footprints:before {
+    content: "\f111";
+}
+.flaticon-translate:before {
+    content: "\f112";
+}
+.flaticon-info:before {
+    content: "\f113";
+}
+.flaticon-checklist:before {
+    content: "\f114";
+}
+.flaticon-gallery:before {
+    content: "\f115";
+}
+.flaticon-dry-clean:before {
+    content: "\f116";
+}
+.flaticon-checked:before {
+    content: "\f117";
+}
+.flaticon-close:before {
+    content: "\f118";
+}
+.flaticon-reply:before {
+    content: "\f119";
+}
+.flaticon-quotation-mark:before {
+    content: "\f11a";
+}
+.flaticon-conversation-mark:before {
+    content: "\f11b";
 }

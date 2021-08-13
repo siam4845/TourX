@@ -23,6 +23,13 @@ dl, ol, ul {
     margin-top: 0;
     margin-bottom: 0;
 }
+p {
+    font-size: 16px;
+    line-height: 27px;
+    color: #737679;
+    font-family: "Work Sans", sans-serif;
+    margin-bottom: 0;
+}
 body{
     font-family: 'Quicksand', sans-serif;
 }
@@ -205,7 +212,7 @@ body{
     left: 0;
     top: auto;
     right: 0;
-    min-width: 150px;
+    min-width: 165px;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -1449,3 +1456,176 @@ input[type=text], input[type=email], input[type=date], input[type=number], input
 #destination-main #newsletter {
     margin-top: 60px;
 }
+/* ====================Contact Page Part Start Here================== */
+/* ==========Contact Card Part Start============ */
+#contact-card{
+    margin-top: 120px;
+}
+.card-item {
+    padding: 25px;
+    background: rgb(255, 255, 255);
+    -webkit-box-shadow: 0px 0px 64px rgba(17, 17, 17, 0.1);
+    box-shadow: 0px 0px 64px rgba(17, 17, 17, 0.1);
+    border-radius: 10px;
+    min-height: 181px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+.card-item::after {
+    position: absolute;
+    content: "";
+    top: -65px;
+    left: -11%;
+    display: block;
+    width: 126px;
+    height: 180px;
+    background-color: #304F47;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    z-index: 1;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    transition: all linear 0.3s;
+}
+.card-item:hover::after{
+    background-color: #ff7e47;
+}
+.card-item .card-icon {
+    min-width: 100px;
+    position: relative;
+    z-index: 10;
+}
+.card-item .card-icon i {
+    font-size: 55px;
+    color: #fff;
+}
+.card-item .card-info h5 {
+    padding-top: 20px;
+    font-weight: 700;
+    font-size: 28px;
+    color: #262339;
+    margin-bottom: 10px;
+}
+.card-item .card-info p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    color: #A5A5A5;
+}
+.card-item .card-info ul.contact-icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.card-item .card-info ul.contact-icons li {
+    margin-right: 20px;
+}
+.card-item .card-info ul.contact-icons li a i {
+    font-size: 28px;
+    color: #a5a5a5;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+.card-item .card-info ul.contact-icons li a:hover i{
+    color: #ff7e47;
+}
+/* ==========Contact Input Part Start============ */
+#contact-input{
+    margin-top: 110px;
+}
+ h5.contact-d-head {
+    font-weight: 700;
+    font-size: 25px;
+    color: #262339;
+    margin-bottom: 30px;
+}
+ul.office-clock{
+    margin-top: 0px;
+}
+ul.office-clock li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+   margin-top: 45px;
+}
+ul.office-clock li .clock-icon {
+    font-size: 45px;
+    margin-right: 20px;
+}
+ul.office-clock li .clock-info h5 {
+    font-weight: 700;
+    font-size: 25px;
+    color: #FF7F47;
+    line-height: 38px;
+}
+ul.office-clock li .clock-info p {
+    font-size: 20px;
+    line-height: 30px;
+}
+.contact-form input, .contact-form textarea {
+    margin-bottom: 40px;
+    border: 1px solid #E1E1E1;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 6px;
+    color: #A5A5A5;
+    width: 100%;
+}
+input[type=text], input[type=email], input[type=date], input[type=number], input[type=tel] {
+    padding: 8px 15px;
+    display: block;
+    width: 100%;
+    background: #ffffff;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    height: 50px;
+}
+.contact-form textarea{
+    padding:8px 15px;
+}
+.con-sub-btn{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.75px;
+    color: #FFFFFF !important;
+    background: #FF7F47;
+    padding: 11px 22px;
+    text-transform: capitalize;
+    transition: all linear 0.3s;
+    margin-bottom: 0;
+    width: 30% !important;
+}
+.con-sub-btn:hover{
+    background-color: #304F47;
+}
+#contact-page #newsletter{
+    margin-top: 60px;
+}
+#package-main-page #newsletter {
+    margin-top: 60px;
+}
+/* ==================Package Sidebar Page Part Start Here=============== */
+#pack{
+    margin-top: 110px;
+}
+.package-filter h5 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 31px;
+    color: #262339;
+    margin: 5px 0;
+}
+.package-option{
+    text-align: right;
+}
+.package-option select{
+    width: 65%;
+    text-align: right;
+}
+/* =========Sidebar Part Start======== */
