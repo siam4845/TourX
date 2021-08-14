@@ -1653,3 +1653,260 @@ input[type=text], input[type=email], input[type=date], input[type=number], input
     color: #fff;
     font-size: 25px;
 }
+/*=========Price Range Part Start Here=========== */
+.package-sidebar .sidebar-range {
+    padding: 30px 25px;
+    -webkit-box-shadow: 0px 0px 64px rgba(17, 17, 17, 0.1);
+    box-shadow: 0px 0px 64px rgba(17, 17, 17, 0.1);
+    border-radius: 10px;
+    margin-top: 40px;
+}
+.package-sidebar h5.categorie-head {
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 25px;
+    color: #262339;
+    margin-bottom: 30px;
+}
+.dual-range {
+    margin-bottom: 20px;
+    --range-size: 12px;
+    --range-width: 100%;
+    --handle-size: 1.3;
+    height: var(--range-size);
+    width: var(--range-width);
+    background: #304F47;
+    border-radius: 50px;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.dual-range .handle.left {
+    left: var(--x-1);
+}
+.dual-range .handle {
+    height: 20px;
+    width: 20px;
+    background: #FF7F47;
+    position: absolute;
+    -webkit-box-shadow: var(--shadow);
+    box-shadow: var(--shadow);
+    border-radius: 50%;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 2;
+    cursor: -webkit-grab;
+    cursor: grab;
+}
+.dual-range .handle::after {
+    content: "$" attr(data-value);
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    font-weight: 700;
+    color: #304F47;
+}
+.dual-range .highlight {
+    position: absolute;
+    height: var(--range-size);
+    left: var(--x-1);
+    background: var(--clr-prim);
+    z-index: 1;
+    border-radius: 50px;
+}
+.dual-range .handle.right {
+    left: var(--x-2);
+}
+.dual-range .handle {
+    height: 20px;
+    width: 20px;
+    background: #FF7F47;
+    position: absolute;
+    -webkit-box-shadow: var(--shadow);
+    box-shadow: var(--shadow);
+    border-radius: 50%;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 2;
+    cursor: -webkit-grab;
+    cursor: grab;
+}
+.dual-range .handle::after {
+    content: "$" attr(data-value);
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    font-weight: 700;
+    color: #304F47;
+}
+/*=========Duration Part Start Here=========== */
+.package-sidebar .sidebar-duration {
+    padding: 30px 25px 10px 25px;
+    -webkit-box-shadow: 0px 0px 64px rgba(17, 17, 17, 0.1);
+    box-shadow: 0px 0px 64px rgba(17, 17, 17, 0.1);
+    border-radius: 10px;
+    margin-top: 40px;
+}
+.package-sidebar .single-option {
+    margin-bottom: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+[type="radio"]:checked, [type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+.package-sidebar .single-option label {
+    font-family: "Work Sans", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #A5A5A5;
+}
+[type="radio"]:checked + label, [type="radio"]:not(:checked) + label {
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #304F47;
+}
+[type="radio"]:checked + label:before, [type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 2px;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #304F47;
+    border-radius: 5px;
+    background: #fff;
+}
+[type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+[type="radio"]:checked + label:after, [type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background: #304F47;
+    position: absolute;
+    top: 5px;
+    left: 3px;
+    border-radius: 5px;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+/*=========Categorie Part Start Here=========== */
+.package-sidebar .sidebar-categorie {
+    padding: 30px 25px 10px 25px;
+    -webkit-box-shadow: 0px 0px 64px rgba(17, 17, 17, 0.1);
+    box-shadow: 0px 0px 64px rgba(17, 17, 17, 0.1);
+    border-radius: 10px;
+    margin-top: 40px;
+}
+/*=========Discount Part Start Here=========== */
+.package-sidebar .sidebar-banner {
+    position: relative;
+    -webkit-box-shadow: 0px 0px 64px rgba(17, 17, 17, 0.1);
+    box-shadow: 0px 0px 64px rgba(17, 17, 17, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 40px;
+}
+.package-sidebar .sidebar-banner .sidebar-banner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(48, 79, 71, 0.85);
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 25px;
+}
+.sidebar-banner .sidebar-banner-overlay h3 {
+    font-size: 40px;
+    line-height: 55px;
+    color: #FFFFFF;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.sidebar-banner-overlay .sidebar-banner-btn a {
+    padding: 14px 35px;
+    background: #FF7F47;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.75px;
+    color: #fff;
+    display: inline-block;
+    transition: all linear 0.3s;
+}
+.sidebar-banner-overlay .sidebar-banner-btn a:hover{
+    background-color: #304F47;
+}
+/* ===================Error Page Start Here=============== */
+#error-sec{
+    text-align: center;
+}
+#error-sec h1{
+    font-size: 80px;
+    font-weight: 700;
+    color: #262339;
+    margin-bottom: 75px;
+    margin-top: 100px;
+}
+#error-sec h2 {
+    margin-top: 100px;
+    font-weight: 700;
+    font-size: 44px;
+    color: #262339;
+}
+#error-sec .error-btn {
+    margin-top: 60px;
+}
+#error-sec .error-btn a {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 22px;
+    color: #FFFFFF;
+    background: #FF7F47;
+    padding: 18px 50px;
+    border-radius: 10px;
+    text-transform: capitalize;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+#error-sec .error-btn a:hover{
+    background-color: #304F47;
+}
+
+#blog-page #blog{
+    margin-top: 90px;
+}
+#blog-page #newsletter{
+    margin-top: 60px;
+}
