@@ -1910,3 +1910,70 @@ input[type=text], input[type=email], input[type=date], input[type=number], input
 #blog-page #newsletter{
     margin-top: 60px;
 }
+/* ===================Gallary Page Start Here================= */
+#gal-page #gallary{
+    padding-top: 110px;
+}
+.gal-grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 24px;
+    grid-template-areas: "img-sm-1 img-sm-2"
+    "img-xxl img-xxl";
+}
+.img-sm-1 {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: img-sm-1;
+}
+.img-sm-2 {
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+    grid-area: img-sm-2;
+}
+.img-xxl {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: img-xxl;
+}
+.gal-grid .img-sm-1 img, .gal-grid .img-sm-2 img, .gal-grid .img-xxl img {
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 5px;
+    line-height: 0;
+}
+.mt-24{
+    padding-top: 24px;
+}
+.gallary-grid-2 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 24px;
+    grid-template-areas: "img-xl img-sm-3" "img-xl img-sm-4";
+}
+.img-xl {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    grid-area: "img-xl";
+}
+.img-sm-3 {
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+    grid-area: "img-sm-3";
+}
+.img-sm-4 {
+    -ms-grid-row: 2;
+    -ms-grid-column: 2;
+    grid-area: "img-sm-4";
+}
